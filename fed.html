@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Styles</title>
+  <link rel="stylesheet" href="fed.css">
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #f9f9f9; }
+    header, footer { background: #333; color: #fff; text-align: center; padding: 10px; }
+    .internal { background: #d0e9ff; margin: 15px; padding: 10px; }
+  </style>
+</head>
+<body>
+
+  <header><h1>Using CSS Styles</h1></header>
+
+  <div style="background:#ffdddd; margin:15px; padding:10px;">
+    <h2 style="color:#c00;">Inline CSS</h2>
+    <p>Added directly to elements using the style attribute.</p>
+  </div>
+
+  <div class="internal">
+    <h2>Internal CSS</h2>
+    <p>Written inside the &lt;style&gt; tag.</p>
+  </div>
+
+  <div class="external">
+    <h2>External CSS</h2>
+    <p>Linked from a separate CSS file.</p>
+  </div>
+
+  <footer>Inline for quick, internal for single pages, external for best practice.</footer>
+
+</body>
+</html>
